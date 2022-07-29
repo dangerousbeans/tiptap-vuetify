@@ -22,6 +22,7 @@
         <v-text-field
           v-model="form.href"
           :label="$i18n.getMsg('extensions.Link.window.form.hrefLabel')"
+          autofocus
         />
 
         <!--
